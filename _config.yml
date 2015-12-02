@@ -1,14 +1,20 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Bevan Williams
+email: br.williams13@gmail.com
+description: Developer blog for my musings, handy code examples and general ramblings
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://bevsun.github.io" # the base hostname & protocol for your site
+twitter_username: bevanwilliams
+github_username:  bevsun
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Bevan Williams
+# Your email if you want it to be linked on the contact page
+author_email: br.williams13@gmail.com
+# How many articles do you wish to appear on the front page:
+paginate: 3
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [.gitignore, Gemfile, .idea]
